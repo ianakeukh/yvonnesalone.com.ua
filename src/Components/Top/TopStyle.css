@@ -1,0 +1,140 @@
+.nav-block {
+  background-color: rgb(217, 111, 153) !important;
+  height: 50px !important;
+}
+
+
+.navbar-block {
+  background-color: rgba(217, 111, 153, 0.82) !important;
+}
+
+
+.navbar {
+  box-shadow: none;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  color: black;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .shop-nav-second, .nav-block {
+    border: 0px;
+    height: 38px !important;
+  }
+
+  .navbar-block {
+    display: none !important;
+  }
+
+  #navbarCollapse1 {
+    z-index: 100;
+  }
+
+  .nav-item {
+    font-size: 0.8rem !important;
+  }
+
+  #navigation-mobile, .navigation-navbar {
+    background-color: rgb(217, 111, 153) !important;
+    height: 38px;
+  }
+
+  button.navbar.navbar-light.navbar-toggler {
+    color: white !important;
+    padding-bottom: 10px !important;
+  }
+
+
+
+  #navbarCollapse1 {
+    background-color: rgb(149, 65, 99) !important;
+    z-index: 100;
+
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .nav-block {
+    border: 0px;
+    height: 35px !important;
+  }
+
+  .navbar-block {
+    display: none !important;
+  }
+
+  .nav-item {
+    font-size: 0.8rem !important;
+  }
+
+  #navigation-mobile, .navigation-navbar {
+    background-color: rgb(217, 111, 153) !important;
+  }
+
+  button.navbar.navbar-light.navbar-toggler {
+    color: white !important;
+    padding-bottom: 10px !important;
+  }
+
+  #navbarCollapse1 {
+    background-color: rgb(149, 65, 99) !important;
+    z-index: 100;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-block {
+    height: 45px !important;
+  }
+
+  .nav-item {
+    font-size: 0.8rem !important;
+  }
+
+  #navigation-mobile {
+    display: none !important;
+  }
+
+  .nav-pill {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  #navigation-mobile {
+    display: none;
+  }
+
+  .nav-pill {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #navigation-mobile {
+    display: none;
+  }
+
+  .nav-pill {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}

@@ -1,0 +1,75 @@
+.slogan {
+    font-size: 1.5rem  !important;
+}
+
+.name {
+    font-size: 1rem  !important;
+}
+
+.quotes {
+    transform: translateX(70px);
+    font-size: 2rem;
+}
+
+.cosmetics-shop {
+    height: 1100px;
+}
+
+.cosmetics-shop {
+    height: 1300px;
+}
+
+
+@media (max-width: 576px) {
+    .slogan {
+        font-size: 0.8rem  !important;
+    }
+
+    .quotes {
+        transform: translateX(10px);
+        font-size: 1.5rem;
+    }
+
+    .slogan-text {
+        font-size: 8px;
+    }
+
+    .name {
+        font-size: 8px;
+    }
+
+    .cosmetics-shop {
+        height: 1900px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .slogan {
+        font-size: 1rem  !important;
+    }
+
+    .quotes {
+        transform: translateX(10px);
+        font-size: 1.5rem;
+    }
+
+    .cosmetics-shop {
+        height: 1200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slogan {
+        font-size: 1.5rem  !important;
+    }
+
+    .quotes {
+        transform: translateX(40px);
+        font-size: 1.5rem;
+    }
+
+    .cosmetics-shop {
+        height: 1250px;
+    }
+}
